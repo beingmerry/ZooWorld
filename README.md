@@ -1,75 +1,27 @@
-# phase-2-project
-phase 2 project w/ 0 connect to original Flatiron page
+# ZooWorld
 
-# 2022-12-08, Thursday, 1 day till the FREAKING APOCALYPSE
+ZooWorld is a React frontend, JSON-server backend based app that features:
+1. creation and deletion of zoos, 
+2. adding or removing animals to those zoos,
+3. and randomly generating a selection of animals from an external API source.
 
-Polish, dark mode, local storage GOALS
+## Goals
 
-# 2022-12-06, Tuesday, 3 days till DESTRUCTION
-
-🎯 Morning Team! Let's get started on our Zoo World project (or whatever we decide to build, Key goal, IDEAS)
-
-# Ben
-
-Here is a change in a different area to test merging! 2022-12-06, 09:33 ET
-
-Posted 2022-12-04 17:56 ET
-
-👋 Hi all! I thought it might be fun to leave notes and tasks in the readme.md, maybe not the most efficient, but a good starting place for introducing ourselves and working in the same repo I think... I'm looking at using the discussion feature also in GitHub but we should just chat tomorrow about how we want to communicate.
-
-🔔 To introduce myself, my name is Ben Merryman, I currently live in Phoenixville, Pennsylvania about 30 minutes outside of Philadelphia with my girlfriend Jamie and my dog Obi (1 year old, half Great Pyrennees - half mutt).
-
-⛵ I'm 34, love to sail and snowbaord, and have been really enjoying learning to program so far!
-
-👀 Looking forward to an awesome project with you guys.  Prepare for the emoji's... 💥🏗️🎯
-
-# Kamran
-
-🎯 I usually use the target emoji to indicate ToDo's for myself... feel free to introduce yourself here if you want to!
-
-I like to play video games
-I like to snowboard but I can't this winter due to an injury :(
-  hello
-
-# Kevin
-
-- typing in things to push
-- skydiving
-- hiking
-- coding
-- biking
-- suggesting we should find an edible mushroom api 
-
-🎯 I usually use the target emoji to indicate ToDo's for myself... feel free to introduce yourself here if you want to!
-
-# Phase 2 Project Guidelines
-
-## Learning Goals
-
-- Build a React single page application from scratch
+- Build a React single page application (`index.html` only) from scratch
+    - Use `create-react-app`
+    - 5 or more React components
+    - Well organized and commented code
 - Apply your knowledge of components, props and state management
 - Incorporate client-side routing
+    - [React Router][react-router]
+    - RESTful Routing Conventions
 - Use data from an API
+- JSON-Server with GET / POST / PUT / DELETE requests
+    - Use forms to interact with the backend JSON-Server
 
-## Introduction
+## Routes
 
-Now that you've learned the fundamentals of React, it's time to practice and
-expand your skills by making a React project from scratch!
-
-This assignment is open-ended when it comes to the actual content. You are free
-to create whatever you'd like, as long as it incorporates the requirements
-listed in these instructions.
-
-## Requirements
-
-1. You must make a single page application (only one `index.html` file) using
-   `create-react-app`.
-2. Your app should use at least 5 components in a way that keeps your code well
-   organized.
-3. There should be at least 3 client-side routes using [React
-   Router][react-router]. Be sure to include a nav bar or other UI element that
-   allows users to navigate between routes. Use RESTful routing conventions where
-   applicable.
+[React Router][react-router]
 
     | Route Name | URL              | HTTP Verb  | Description                           |
     | ---------- | ---------------- | ---------- | ------------------------------------- |
@@ -80,6 +32,8 @@ listed in these instructions.
     | Edit       | /movies/:id/edit | GET        | Display form to update specific movie |
     | Update     | /movies/:id      | PUT/PATCH  | Update a specific movie               |
     | Destroy    | /movies/:id      | DELETE     | Delete a specific movie               |
+## Requirements
+
 
 4. Use a `json-server` to create a RESTful API for your backend and make both a
    `GET` and a `POST` request to the json server. Use a form to make your post
